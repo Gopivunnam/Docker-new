@@ -9,6 +9,7 @@ RUN apt update && apt install -y awscli \
   && mkdir /etc/demo 
 COPY index.html  /var/www/html/index.html
 COPY style.css   /Var/www/html/style.css
+COPY Error.html  /Var/www/html/Error.html
 ADD  script.js   /var/www/html/script.js
 
 EXPOSE 80/tcp
