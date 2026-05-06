@@ -13,3 +13,5 @@ COPY Error.html  /Var/www/html/Error.html
 
 EXPOSE 80/tcp
 CMD [ "/bin/ping", "-c 10", "www.google.com" ]
+
+
