@@ -1,4 +1,4 @@
-FROM tomcat:10.1-jre17-alpine
+FROM tomcat:10.1-jre17-temurin-alpine
 WORKDIR /usr/local/tomcat/webapps/
 
 # Clear default apps
